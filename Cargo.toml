@@ -1,0 +1,15 @@
+[package]
+name = "hash-toolkit-rs"
+version = "0.1.0"
+edition = "2021"
+description = "CLI hash toolkit — compute, verify, compare"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+sha2 = "0.10"
+md-5 = "0.10"
+sha1 = "0.10"
+blake2 = "0.10"
+hex = "0.4"
+walkdir = "2"
